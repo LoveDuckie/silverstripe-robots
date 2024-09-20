@@ -12,7 +12,7 @@ class RobotsRule extends DataObject
     /*
      * The definitive list of user agent tokens to be used in the robots.txt file.
      */
-    private static array $googleBotCrawlers = [
+    private static array $GoogleBotCrawlers = [
         "Googlebot",
         "Googlebot-News",
         "Googlebot-Image",
