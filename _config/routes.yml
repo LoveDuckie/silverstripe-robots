@@ -1,0 +1,10 @@
+# app/_config/routes.yml
+---
+Name: approutes
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    'robots.txt': 'App\Control\TeamController'

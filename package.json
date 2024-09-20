@@ -1,5 +1,5 @@
 {
-  "name": "silverstripe-module-skeleton",
+  "name": "silverstripe-robots",
   "engines": {
     "node": ">=18.x"
   },

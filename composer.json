@@ -1,11 +1,19 @@
 {
-    "name": "silverstripe-module/skeleton",
-    "description": "A skeleton for Silverstripe CMS modules.",
+    "name": "loveduckie/silverstripe-robots",
+    "description": "A Silverstripe module for managing the robots.txt file from the CMS.",
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
         "CMS"
     ],
+    "authors": [
+        {
+            "name": "Luc Shelton","email": "lucshelton@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/loveduckie/silverstripe-robots/issues"
+    },
     "license": "BSD-3-Clause",
     "require": {
         "silverstripe/framework": "^5.0",
@@ -19,14 +27,15 @@
     },
     "autoload": {
         "psr-4": {
-            "SilverStripeModule\\Skeleton\\": "src/",
-            "SilverStripeModule\\Skeleton\\Tests\\": "tests/php/"
+            "LoveDuckie\\SilverStripe\\Robots\\": "src/",
+            "LoveDuckie\\SilverStripe\\Robots\\Tests\\": "tests/php/"
         }
     },
     "extra": {
         "expose": [
             "client/dist"
-        ]
+        ],
+        "screenshots": []
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
