@@ -4,6 +4,10 @@
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
+        "silverstripe-4",
+        "silverstripe-5",
+        "google-robots",
+        "robots",
         "CMS"
     ],
     "authors": [

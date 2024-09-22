@@ -9,6 +9,8 @@ use SilverStripe\ORM\DataObject;
 
 class RobotsRule extends DataObject
 {
+    private static string $table_name = "RobotsRule";
+
     /*
      * The definitive list of user agent tokens to be used in the robots.txt file.
      */
