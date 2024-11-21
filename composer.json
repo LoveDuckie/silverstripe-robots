@@ -1,6 +1,7 @@
 {
     "name": "loveduckie/silverstripe-robots",
     "description": "A Silverstripe module for managing the robots.txt file from the CMS.",
+    "homepage": "https://lucshelton.com",
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
